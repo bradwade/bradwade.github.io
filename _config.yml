@@ -1,0 +1,39 @@
+# Site wide configuration
+
+title: Brad Wade
+description: The home for Brad Wade's web development work, labs/notes for things he is working on, documentation, portfolio.
+# 120x120 px default image used for Twitter summary card
+logo: nature-q-c-120-120-3.jpg 
+# 400x250 px default teaser image used in image archive grid
+teaser: nature-q-c-800-500-8.jpg
+locale: NYC, NY
+image: Wade124-1024x512.jpg
+# url: http://project47.com
+
+# Jekyll configuration
+
+sass:
+    sass_dir: _sass
+    style: compressed
+permalink: /:categories/:title/
+kramdown:
+  toc_levels: 1..2
+highlighter: pygments
+gems:
+  - jekyll-sitemap
+
+
+# Site owner
+owner:
+  name: Brad Wade
+  email: brad@project47.com
+  twitter: bradwade
+  google:
+    ad-client: 
+    ad-slot: 
+  bio: Brad Wade has been developing websites since 1998. He specializes in front-end architecture and Drupal 8.
+  avatar: bradwade-bio-photo.jpg # 160x160 px image for author byline
+  disqus-shortname: project47
+
+
+exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]

@@ -1,0 +1,11 @@
+# Site navigation links
+
+- title: portfolio
+  url: /portfolio
+  excerpt: Some of my sites and clients.
+  image: animals-q-g-300-200-1.jpg
+
+- title: lab
+  url: /lab
+  excerpt: Documentation and notes on front-end web development and Drupal.
+  image: animals-q-g-300-200-4.jpg
