@@ -25,10 +25,6 @@ body {
   margin: 0;
 }
 
-.footer-wrapper {
-  background-color: $text-color;
-}
-
 p {
 	@include font-size(18,yes,28);
 }

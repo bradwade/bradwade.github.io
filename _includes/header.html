@@ -1,6 +1,9 @@
 <header id="masthead">
   <div class="inner-wrap">
-    <a href="{{ site.url }}/" class="site-title">{{ site.title }}</a>
+	<div class="site-title-wrapper">
+      <a href="{{ site.url }}/" class="site-title">{{ site.title }}</a>
+      {% if site.subtitle %}<div class="site-subtitle">{{ site.subtitle }}</div>{% endif %}
+    </div>
     <nav role="navigation" class="menu top-menu">
         {% include navigation.html %}
     </nav>

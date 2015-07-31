@@ -18,20 +18,30 @@
 		@include outer-container;
 	}
 }
-.site-title {
+
+.site-title-wrapper {
 	@include row;
 	@include media($large) {
-		@include span-columns(4);
+	  @include span-columns(5);
 	}
 	padding: (.25 * $masthead-height) 0; // fourth the height to center vertically
 	//height: $masthead-height;
-	color: $text-color;
 	font-family: publicgothicfederalregular;
 	//font-weight: 700;
 	@include font-size(40,no);
 	line-height: .5 * $masthead-height; // half the height to center vertically
 	text-transform: uppercase;
+}
+
+.site-title {
   text-decoration: none;
+  color: $text-color;
+}
+
+.site-subtitle {
+  font-family: publicgothicfederalregular;
+  @include font-size(20,no);
+  color: $caption-color;
 }
 
 
@@ -55,6 +65,7 @@
 			padding: (.25 * $masthead-height) 0 (.25 * $masthead-height) ;
 			height: $masthead-height;
 			font-family: $alt-font;
+			font-family: publicgothicfederalregular;
 			&:before,
 			&:after {
 				content: '';
@@ -71,7 +82,7 @@
 			}
 			&:after {
 				width: 0;
-				background: $black;
+				background: $text-color;
 			}
 			&:active:after,
 			&:hover:after {
@@ -102,8 +113,8 @@
 	}
 	li {
 		a {
-			font-weight: 700;
-			@include font-size(16,no);
+			font-weight: normal;
+			@include font-size(36,no);
 			line-height: .5 * $masthead-height; // half the height to center vertically
 			color: $text-color;
 			text-transform: uppercase;
@@ -271,6 +282,7 @@
 	img {
 		width: 100%;
 	}
+	margin-bottom: 25px;
 }
 // make image flush with edges on small screens
 .page-image {
@@ -303,13 +315,15 @@
 
 .page-footer {
 	position: relative;
+	background-color: $body-stripe-color;
+	padding: 20px;
 }
 
 /* Author block */
 
 .author-image {
 	position: absolute;
-	left: 0;
+	left: 20px;
 	img {
 		width: 80px;
 		height: 80px;
@@ -323,6 +337,7 @@
 }
 .author-name {
 	@include font-size(20,no);
+	margin-top:0px;
 }
 .author-bio {
 	margin-top: 0;
@@ -333,10 +348,15 @@
    Site footer
    ========================================================================== */
 
+.footer-wrapper {
+  background-color: $text-color;
+  	margin-top: (3 * (0px + $doc-line-height));
+	margin-top: (3 * (0rem + ($doc-line-height / $doc-font-size)));
+	padding-top:20px;
+}
+
 #site-footer {
 	@include outer-container;
-	margin-top: (3 * (0px + $doc-line-height));
-	margin-top: (3 * (0rem + ($doc-line-height / $doc-font-size)));
 	padding-bottom: $gutter;
 	font-family: $alt-font;
   /* Copyright text */

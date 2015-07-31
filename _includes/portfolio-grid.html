@@ -1,7 +1,15 @@
-{% for link in site.data.portfolio %}<div class="portolio-item">
-      <a href="{{ site.url }}{{ link.url }}">
-        {% if link.image %}<img src="{{ site.url }}/images/{{ link.image }}" alt="teaser" class="teaser">{% endif %}
-        <div class="title">{{ link.title }}</div>
-        {% if link.excerpt %}<p class="excerpt">{{ link.excerpt }}</p>{% endif %}
-      </a>
+{% for link in site.data.portfolio %}<div class="portfolio-item">
+      {% if link.url %}<a href="{{ site.url }}{{ link.url }}" class="portfolio-item__link">{% endif %}
+        {% if link.image %}<img src="{{ site.url }}/images/{{ link.image }}" alt="teaser" class="portfolio-item__teaser">{% endif %}
+      {% if link.url %}</a>{% endif %}
+      <div class="portfolio-item__title-wrapper">
+        {% if link.url %}<a href="{{ site.url }}{{ link.url }}" class="portfolio-item__link">{% endif %}
+          <div class="portfolio-item__title">{{ link.title }}</div>
+		{% if link.url %}</a>{% endif %}
+		{% if link.subtitle %}<div class="portfolio-item__subtitle">{{ link.subtitle }}</div>{% endif %}
+		{% if link.date %}<div class="portfolio-item__date">{{ link.date }}</div>{% endif %}
+      </div>
+      
+      {% if link.excerpt %}<p class="portfolio-item__excerpt">{{ link.excerpt }}</p>{% endif %}
+      
     </div>{% endfor %}

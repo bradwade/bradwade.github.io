@@ -1,0 +1,50 @@
+/* ==========================================================================
+   Portfolio
+   ========================================================================== */
+
+/*
+   Portfolio Item
+   ========================================================================== */
+
+.portfolio {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: space-between;
+}
+
+.portfolio-item {
+  flex-grow: 1;
+  flex-basis: 45%;
+  background-color: $body-stripe-color;
+  padding: 20px;
+  margin: 10px;
+}
+
+.portfolio-item__teaser {
+  float: left;
+  margin: 0px 10px 10px 0px;
+}
+
+.portfolio-item__title-wrapper {
+  @include font-size(20);
+}
+
+.portfolio-item__title {
+  font-weight: bold;
+}
+
+.portfolio-item__subtitle {
+  @include font-size(16, no);
+}
+
+.portfolio-item__date {
+  @include font-size(16, no);
+}
+
+.portfolio-item__excerpt {
+  //clear: both;
+  @include font-size(16, no);
+}

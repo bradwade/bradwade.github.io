@@ -25,13 +25,14 @@ $white                        : #fff;
 $black                        : #000;
 
 $body-color                  	: #E2D9C4;
+$body-stripe-color				: darken($body-color, 4);
 
 $text-color                  	: #46433A;
 $caption-color                : mix($white, $text-color, 25%);
 
 $base-color                  	: #343434;
 $comp-color                  	: complement($base-color);
-$border-color                	: #ddd;
+$border-color                	: darken($body-color, 4);
 $link-color                  	: #AB433E;
 
 $primary-color               	: #46433A;

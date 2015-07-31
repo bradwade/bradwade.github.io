@@ -1,0 +1,22 @@
+/* ==========================================================================
+   Bio
+   ========================================================================== */
+
+.bio {
+  margin-bottom: 25px;
+  overflow: hidden;
+}
+
+.bio__image {
+  border: 5px solid $text-color;
+  float: left;
+  margin-right: 25px;
+}
+
+.bio__links {
+  float: left;
+}
+
+.latest-posts-title {
+  clear:both;
+}

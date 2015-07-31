@@ -1,14 +1,14 @@
 # Site wide configuration
 
 title: Brad Wade
+subtitle: front end developer | drupal specialist | musician
 description: The home for Brad Wade's web development work, labs/notes for things he is working on, documentation, portfolio.
 # 120x120 px default image used for Twitter summary card
 logo: nature-q-c-120-120-3.jpg 
 # 400x250 px default teaser image used in image archive grid
 teaser: nature-q-c-800-500-8.jpg
 locale: NYC, NY
-image: Wade124-1024x512.jpg
-# url: http://project47.com
+# url: http://bradwade.com
 
 # Jekyll configuration
 
