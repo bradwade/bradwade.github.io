@@ -23,9 +23,11 @@ body {
 	@include font-size(16);
   background-color: $body-color;
   margin: 0;
+  font-weight: 300;
 }
 
 p {
+  margin-top: 0px;
 	@include font-size(18,yes,28);
 }
 
@@ -38,6 +40,7 @@ li {
 h1, h2, h3, h4, h5, h6 {
 	font-family: $heading-font;
 	text-rendering: optimizeLegibility; // Fix the character spacing for headings
+  font-weight: 900;
 }
 h1 {
 	@include font-size(36);
@@ -399,6 +402,69 @@ nav {
   }
   a {
     text-decoration: none;
+  }
+}
+
+/* Finder Folder List */
+.finder-list {
+  font-family: $finder-font;
+  background-color: white;
+  color: black;
+  border: 10px solid #ededec;
+  border: 10px solid mix($white, $border-color, 5%);
+  border-width: 0px 10px 10px 10px;
+  @include font-size(12,no);
+  outline: 1px solid $text-color;
+}
+
+.finder-list__title {
+  background-color: mix($white, $border-color, 5%);;
+  @include font-size(14,no);
+  font-weight: 900;
+  padding:3px 3px;
+  font-family: $heading-font;
+  text-transform: uppercase;
+}
+
+.finder-list__row {
+  padding:0px;
+  &.tier-1 {
+    padding-left:20px;
+  }
+  &.tier-2 {
+    padding-left:50px;
+  }
+  &.tier-3 {
+    padding-left:80px;
+  }
+  i.fa {
+    color: #96b9cb;
+  }
+  &.odd {
+    background-color: white;
+  }
+  &.even {
+    background-color: #eef5f8;
+  }
+}
+
+/* Definition Lists */
+
+dl {
+  margin: 35px 0px;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin-left: 0px;
+  margin-bottom: 10px;
+  &:before {
+    content: "\f0A9";
+    font-family: FontAwesome;
+    margin-right: 6px;
   }
 }
 

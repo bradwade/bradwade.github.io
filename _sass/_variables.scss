@@ -6,10 +6,11 @@
    Typography variables
    ========================================================================== */
 
-$base-font                   	: Vollkorn, Georgia,Times,"Times New Roman",serif;
-$heading-font                	: Vollkorn, "Helvetica Neue","Segoe UI",Arial,sans-serif;
+$base-font                   	: Merriweather, Georgia,Times,"Times New Roman",serif;
+$heading-font                 : Lato, "Helvetica Neue","Segoe UI",Arial,sans-serif;
 $caption-font                	: $base-font;
 $code-font                   	: monospace;
+$finder-font					        : Lucida Grande,Lucida Sans Unicode,Lucida Sans,Geneva,Verdana,sans-serif;
 $alt-font                    	: $heading-font;
 
 $doc-font-size               	: 16;
@@ -109,3 +110,9 @@ $badge-font-color              : $white;
    ========================================================================== */
 
 $masthead-height: $button-size * 2;
+
+/*
+  Other Variables
+  ============================================================================ */
+
+$image-border: 5px solid $text-color;

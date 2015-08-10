@@ -65,7 +65,6 @@
 			padding: (.25 * $masthead-height) 0 (.25 * $masthead-height) ;
 			height: $masthead-height;
 			font-family: $alt-font;
-			font-family: publicgothicfederalregular;
 			&:before,
 			&:after {
 				content: '';
@@ -113,8 +112,8 @@
 	}
 	li {
 		a {
-			font-weight: normal;
-			@include font-size(36,no);
+			font-weight: 900;
+			@include font-size(20,no);
 			line-height: .5 * $masthead-height; // half the height to center vertically
 			color: $text-color;
 			text-transform: uppercase;
@@ -175,7 +174,7 @@
 			a { text-decoration: none; }
 			p a,
 			li a {
-				border-bottom: 1px dotted lighten($link-color, 50);
+				border-bottom: 1px dotted $link-color;
 				&:hover {
 					border-bottom-style: solid;
 				}

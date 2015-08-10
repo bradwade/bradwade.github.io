@@ -1,4 +1,10 @@
 # Footer navigation links
 
-- title: LinkedIn
-  url: www.linkedin.com/in/bradlywade
+- title: portfolio
+  url: /portfolio
+
+- title: lab
+  url: /lab
+
+- title: about
+  url: /about

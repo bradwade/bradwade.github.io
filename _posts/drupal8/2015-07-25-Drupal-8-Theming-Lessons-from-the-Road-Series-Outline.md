@@ -3,15 +3,15 @@ layout: article
 title: Drupal 8 Theming - Lessons from the Road - Series Outline
 categories: drupal8
 image:
-  teaser: nature-q-c-800-500-7.jpg
-  feature: nature-q-g-1024-256-3.jpg
-  credit: Michael Rose #name of the person or site you want to credit
-  creditlink: http://mademistakes.com #url to their site or licensing
+  teaser: triboro-800-500.jpg
+  feature: triboro-1140-285.jpg
+  credit: Joshua Brandenburg
+  creditlink: http://www.drinkandsmile.com/
 ---
 
 ## 1) Philosophy for early D8 theming - managing layout without panels
 
-## 2) Getting started with a new D8 theme  
+## 2) Getting started with a new D8 theme
 Theme location. Folder structure. List of files and quick sentence on each with more detailed explanation of info.yml.
 Sidebar quick intro to yml.
 
@@ -27,7 +27,7 @@ Sidebar quick intro to yml.
 Defining Regions. Controlling what blocks go where. Creating custom blocks. Breadcrumbs. Placing Blocks in Nodes. Placing node content into blocks.
 
 ## 7) THEMENAME.theme
-- preprocessing and suggestions alters. 
+- preprocessing and suggestions alters.
 - How to add custom body/html classes.
 - How to use custom logic/data to determine which template file to use
 - Create custom meta & link tags. How to add favicon/icons.
