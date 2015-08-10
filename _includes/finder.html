@@ -1,0 +1,6 @@
+<div class="finder-list">
+  <div class="finder-list__title">{{ include.finderlist.title }}</div>
+  {% for row in include.finderlist.filelist %}
+    <div class="finder-list__row {% cycle 'odd', 'even' %} tier-{{row.tier}}"><i class="{{row.class}}"></i> {{row.name}}</div>
+  {% endfor %}
+</div>

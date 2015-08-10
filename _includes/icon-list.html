@@ -1,0 +1,17 @@
+<ul class="fa-ul">
+  {% for row in include.iconlist %}
+
+      {% if row.url contains 'http' %}
+        {% assign domain = '' %}
+        {% else %}
+        {% assign domain = site.url %}
+    {% endif %}
+
+  <li>
+    {% if row.url %}<a href="{{ domain}}{{ row.url }}"{% if row.url contains 'http' %} target="_blank"{% endif %}>{% endif %}
+      <i class="fa-li fa {{row.font-class}}"></i>
+      {{ row.title }}
+    {% if row.url %}</a>{% endif %}
+  </li>
+  {% endfor %}
+</ul>

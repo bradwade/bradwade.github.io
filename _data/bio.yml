@@ -1,0 +1,27 @@
+# Bio
+image: bradwade-crop-6U9O0340.jpg
+short: I am a front end web developer, drupal specialist, and a musician. [Find out more about me...](/about/)
+links:
+  - title: LinkedIn
+    url: http://www.linkedin.com/in/bradlywade
+    font-class: fa-linkedin
+
+  - title: Resume
+    url: /bradwade_resume_web.pdf
+    font-class: fa-file-pdf-o
+
+  - title: Twitter
+    url: https://twitter.com/bradwade
+    font-class: fa-twitter
+
+  - title: Drupal.org
+    url: https://www.drupal.org/u/bradwade
+    font-class: fa-drupal
+
+  - title: GitHub
+    url: https://github.com/bradwade
+    font-class: fa-github
+
+  - title: CodePen
+    url: http://codepen.io/bradwade/
+    font-class: fa-codepen
