@@ -2,7 +2,7 @@
 
 - title: "Memorial Sloan Kettering Cancer Center"
   url: http://www.mskcc.org
-  excerpt: One of the first, enterprise-level Drupal 8 websites. Integrated custom prototype with Drupal theme using Grunt automation.
+  excerpt: Integral member of the team that launched one of the first, enterprise-level Drupal 8 websites. Led multiple front-end developers implementing everything related to the Drupal theme layer. Integrated custom prototype with Drupal theme using Grunt automation.
   image: portfolio/mskcc-thumb.png
   date: 2015
 
@@ -13,144 +13,155 @@
   image: portfolio/telemundo-thumb.png
   date: 2014
 
-- title: AllYou
+- title: Cooking Light
   subtitle: Time Inc.
   url:
-  excerpt: Migrated magazine sites from proprietary CMS to open source Drupal.
-  image: portfolio/allyou-thumb.png
-
-- title: Sunset
-  subtitle: Time Inc.
-  url:
-  excerpt: Migrated magazine sites from proprietary CMS to open source Drupal.
-  image: portfolio/sunset-thumb.png
+  excerpt: Recreated previous site design in Drupal theme while helping team to migrate site from proprietary CMS to open-source Drupal.
+  image: portfolio/cookinglight-thumb.png
+  date: 2014
 
 - title: Southern Living
   subtitle: Time Inc.
   url:
-  excerpt: Migrated magazine sites from proprietary CMS to open source Drupal.
+  excerpt: Recreated previous site design in Drupal theme while helping team to migrate site from proprietary CMS to open-source Drupal.
   image: portfolio/southernliving-thumb.png
+  date: 2014
 
-- title: Cooking Light
+- title: Sunset
   subtitle: Time Inc.
   url:
-  excerpt: Migrated magazine sites from proprietary CMS to open source Drupal.
-  image: portfolio/cookinglight-thumb.png
+  excerpt: Recreated previous site design in Drupal theme while helping team to migrate site from proprietary CMS to open-source Drupal.
+  image: portfolio/sunset-thumb.png
+  date: 2014
 
 - title: Coastal Living
   subtitle: Time Inc.
   url:
-  excerpt: Migrated magazine sites from proprietary CMS to open source Drupal.
+  excerpt: Recreated previous site design in Drupal theme while helping team to migrate site from proprietary CMS to open-source Drupal.
   image: portfolio/coastalliving-thumb.png
+  date: 2014
+
+- title: AllYou
+  subtitle: Time Inc.
+  url:
+  excerpt: Recreated previous site design in Drupal theme while helping team to migrate site from proprietary CMS to open-source Drupal.
+  image: portfolio/allyou-thumb.png
+  date: 2013
 
 - title: Deptartment of Energy
-  url: https://www.phase2technology.com/the-department-of-energy-and-their-mobile-first-strategy/
-  excerpt: One of the first federal agencies to launch a responsive web platform. 
+  url:
+  excerpt: One of the first federal agencies to launch a responsive web platform. Lead front-end developer, UX design in cooperation with third-party design agency, implemented responsive design.
   image: portfolio/doe-thumb.png
   date: 2013
 
-- title: Robin Hood
+- title: Storyhunter.tv
+  url: http://storyhunter.tv
+  excerpt: Worked with tech publishing startup redesigning and adding features to platform for freelance journalists and filmmakers.
+  image: portfolio/storyhunter-thumb.png
+  date: 2012-2013
+
+- title: Street Swell
   url:
-  excerpt:
+  excerpt: IA, UX, site building, custom coding, and front-end theme implementation for this Drupal commerce site.
+  image: portfolio/streetswell.png
+  date: 2012
+
+- title: Georgia.gov
+  url:
+  excerpt: Completed a several custom themes for a Drupal platform used by many state agencies. Refactored so much that I wound up deleting more lines of code than I added.
+  image: portfolio/georgia-thumb.png
+  date: 2012
+
+- title: Robin Hood Foundation
+  url:
+  excerpt: Front-end developer creating custom theme for charitable organization.
   image: portfolio/robinhood.png
   date: 2011
-  
-- title: archive1887
-  subtitle: Sony Music
-  url:
-  excerpt:
-  image: portfolio/archive1887.png
-  date: 2010
-  
-- title: Augustana
-  subtitle: Sony Music
-  url:
-  excerpt:
-  image: portfolio/augustana.jpg
-
-- title: Avril Lavigne
-  subtitle: Sony Music
-  url:
-  excerpt:
-  image: portfolio/avril-lavigne.png
-  
-- title: Britney Spears
-  subtitle: Sony Music
-  url:
-  excerpt:
-  image: portfolio/britney.jpg
-
-- title: Body & Soul Restoration
-  url:
-  excerpt:
-  image: portfolio/bsr.png
-
-- title: Calvary Baptist Church
-  url:
-  excerpt:
-  image: /portfolio/calvary.jpg
-  
-- title: David Cook
-  subtitle: Sony Music
-  url:
-  excerpt:
-  image: portfolio/david-cook.png
-  date: 2011
-  
-- title: Isaac Russell
-  subtitle: Sony Music
-  url:
-  excerpt:
-  image: portfolio/isaac-russell.png
-  date: 2010
 
 - title: Kelly Clarkson
   subtitle: Sony Music
   url:
-  excerpt:
+  excerpt: Created custom theme, site building and customization of base Drupal platform.
   image: portfolio/kellyclarkson.jpg
   date: 2011
-  
-- title: Mike Posner
-  subtitle: Sony Music
-  url:
-  excerpt:
-  image: portfolio/mike-posner.png
-  date: 2010
 
 - title: Simon and Garfunkel
   subtitle: Sony Music
   url:
-  excerpt:
+  excerpt: Created custom theme, site building and customization of base Drupal platform.
   image: portfolio/sandg.jpg
+  date: 2011
+
+- title: Britney Spears
+  subtitle: Sony Music
+  url:
+  excerpt: Created custom theme, site building and customization of base Drupal platform.
+  image: portfolio/britney.jpg
+  date: 2011
+
+- title: David Cook
+  subtitle: Sony Music
+  url:
+  excerpt: Created custom theme, site building and customization of base Drupal platform.
+  image: portfolio/david-cook.png
+  date: 2011
+
+- title: Avril Lavigne
+  subtitle: Sony Music
+  url:
+  excerpt: Created custom theme, site building and customization of base Drupal platform.
+  image: portfolio/avril-lavigne.png
+  date: 2010
+
+- title: archive1887
+  subtitle: Sony Music
+  url:
+  excerpt: Created custom theme, site building and customization of base Drupal platform.
+  image: portfolio/archive1887.png
+  date: 2010
+
+- title: Augustana
+  subtitle: Sony Music
+  url:
+  excerpt: Created custom theme, site building and customization of base Drupal platform.
+  image: portfolio/augustana.jpg
+  date: 2010
+
+- title: Isaac Russell
+  subtitle: Sony Music
+  url:
+  excerpt: Created custom theme, site building and customization of base Drupal platform.
+  image: portfolio/isaac-russell.png
+  date: 2010
+
+- title: Mike Posner
+  subtitle: Sony Music
+  url:
+  excerpt: Created custom theme, site building and customization of base Drupal platform.
+  image: portfolio/mike-posner.png
+  date: 2010
 
 - title: Say Anything
   subtitle: Sony Music
   url:
-  excerpt:
+  excerpt: Created custom theme, site building and customization of base Drupal platform.
   image: portfolio/say-anything.png
   date: 2009
-  
-- title: Street Swell
-  url:
-  excerpt:
-  image: portfolio/streetswell.png
-  date: 2012
-  
+
 - title: University at Buffalo
   url:
   excerpt: Complete overhaul of the information architecture and organization of the site as well as coordinating graphic redesign.
   image: portfolio/ub.jpg
   date: 2009
 
-- title: Georgia.gov
+- title: Body & Soul Restoration
   url:
-  excerpt: Helped complete a handful of custom themes for a Drupal platform to be used by many state agencies. Refactored so much code that I wound up deleting more lines of code than I added.
-  image: portfolio/georgia-thumb.png
-  date: 2012
-  
-- title: Storyhunter.tv
-  url: http://storyhunter.tv
-  excerpt: Worked with tech publishing startup redesigning and adding features to platform for freelance journalists and filmmakers.
-  image: portfolio/storyhunter-thumb.png
-  date: 2012-2013
+  excerpt: IA, UX, site building, custom coding, and front-end theme implementation.
+  image: portfolio/bsr.png
+  date: 2009
+
+- title: Calvary Baptist Church
+  url:
+  excerpt: IA, UX, site building, as well as front-end theme development.
+  image: /portfolio/calvary.jpg
+  date: 2009

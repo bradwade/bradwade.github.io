@@ -288,6 +288,9 @@
 	position: relative;
 	margin-left: -1 * $gutter;
 	margin-right: -1 * $gutter;
+  @include media(1140px) {
+    margin: 0px;
+  }
 	// feature image caption
 	.image-credit {
 		position: absolute;
@@ -333,6 +336,7 @@
 	word-wrap: break-word;
 	padding-left: 100px; //avatar width + 20px padding
 	min-height: 80px; //mirrors avatar height
+  margin-bottom: 25px;
 }
 .author-name {
 	@include font-size(20,no);
@@ -351,7 +355,7 @@
   background-color: $text-color;
   	margin-top: (3 * (0px + $doc-line-height));
 	margin-top: (3 * (0rem + ($doc-line-height / $doc-font-size)));
-	padding-top:20px;
+  padding: 20px $gutter 0px; // add white space for smaller screens
 }
 
 #site-footer {

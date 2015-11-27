@@ -21,6 +21,7 @@
   background-color: $body-stripe-color;
   padding: 20px;
   margin: 10px;
+  position: relative;
 }
 
 .portfolio-item__teaser {
@@ -30,6 +31,7 @@
 
 .portfolio-item__title-wrapper {
   @include font-size(20);
+  margin-bottom: 10px;
 }
 
 .portfolio-item__title {
@@ -48,4 +50,18 @@
 .portfolio-item__excerpt {
   //clear: both;
   @include font-size(16, no);
+}
+
+.portfolio-item__link {
+  //display: block;
+  //background-color: $text-color;
+  //color: $body-color;
+  //padding: 5px 20px;
+  //font-family: $heading-font;
+  //text-transform: uppercase;
+  //text-align: center;
+  //clear: both;
+  //margin-top: 15px;
+  @include font-size(16, no);
+  font-style: italic;
 }

@@ -92,10 +92,15 @@ a {
 blockquote {
   padding-left: $gutter;
   padding-right: $gutter;
-  border-left: 6px solid $info-color;
+  padding: $gutter;
+  //border-left: 6px solid $info-color;
+  background-color: mix($white, $border-color, 5%);
+  font-style: italic;
   p {
-    font-family: $alt-font;
-    @include font-size(24);
+    //font-family: $alt-font;
+    &:last-child {
+      margin-bottom: 0px;
+    }
   }
   cite {
     font-family: $base-font;
@@ -274,8 +279,9 @@ hr {
 		position: absolute;
 		top: 0;
 		left: 0;
-		width: 2 * $column;
-		height: 1px;
+		// width: 2 * $column;
+    width: 100%;
+		height: 2px;
 		background: $border-color;
 	}
 }
@@ -414,11 +420,12 @@ nav {
   border: 10px solid mix($white, $border-color, 5%);
   border-width: 0px 10px 10px 10px;
   @include font-size(12,no);
+  margin-bottom: 20px;
   outline: 1px solid $text-color;
 }
 
 .finder-list__title {
-  background-color: mix($white, $border-color, 5%);;
+  background-color: mix($white, $border-color, 5%);
   @include font-size(14,no);
   font-weight: 900;
   padding:3px 3px;

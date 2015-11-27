@@ -2,13 +2,13 @@
 
 title: Brad Wade
 subtitle: front end developer | drupal specialist | musician
-description: The home for Brad Wade's web development work, labs/notes for things he is working on, documentation, portfolio.
+description: The home for Brad Wade's web development work, portfolio, notes, documentation, and experiments.
 # 120x120 px default image used for Twitter summary card
-logo: nature-q-c-120-120-3.jpg 
+logo: bradwade-square-120.jpg
 # 400x250 px default teaser image used in image archive grid
-teaser: nature-q-c-800-500-8.jpg
+teaser: 210And2more-800-500.jpg
 locale: NYC, NY
-#url: https://dl.dropboxusercontent.com/u/1105391/bradwade-jekyll/
+#url: http://bradwade.com
 
 # Jekyll configuration
 
@@ -29,9 +29,9 @@ owner:
   email: brad@project47.com
   twitter: bradwade
   google:
-    ad-client: 
-    ad-slot: 
-  bio: Brad Wade has been developing websites since 1998. He specializes in front-end architecture and Drupal 8.
+    ad-client:
+    ad-slot:
+  bio: Brad Wade is a front-end web developer, Drupal specialist, and a musician living in New York City.
   avatar: bradwade-bio-photo.jpg # 160x160 px image for author byline
   disqus-shortname: project47
 

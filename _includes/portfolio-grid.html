@@ -1,15 +1,11 @@
 {% for link in site.data.portfolio %}<div class="portfolio-item">
-      {% if link.url %}<a href="{{ site.url }}{{ link.url }}" class="portfolio-item__link">{% endif %}
-        {% if link.image %}<img src="{{ site.url }}/images/{{ link.image }}" alt="teaser" class="portfolio-item__teaser">{% endif %}
-      {% if link.url %}</a>{% endif %}
-      <div class="portfolio-item__title-wrapper">
-        {% if link.url %}<a href="{{ site.url }}{{ link.url }}" class="portfolio-item__link">{% endif %}
-          <h4 class="portfolio-item__title">{{ link.title }}</h4>
-		{% if link.url %}</a>{% endif %}
+  {% if link.image %}<img src="{{ site.url }}/images/{{ link.image }}" alt="teaser" class="portfolio-item__teaser">{% endif %}
+  <div class="portfolio-item__title-wrapper">
+    <h4 class="portfolio-item__title">{{ link.title }}</h4>
 		{% if link.subtitle %}<div class="portfolio-item__subtitle">{{ link.subtitle }}</div>{% endif %}
 		{% if link.date %}<div class="portfolio-item__date">{{ link.date }}</div>{% endif %}
-      </div>
-
-      {% if link.excerpt %}<p class="portfolio-item__excerpt">{{ link.excerpt }}</p>{% endif %}
-
-    </div>{% endfor %}
+    {% if link.url %}<a href="{{ site.url }}{{ link.url }}" class="portfolio-item__link">Launch Site <i class="fa fa-external-link"></i>
+</a>{% endif %}
+  </div>
+  {% if link.excerpt %}<p class="portfolio-item__excerpt">{{ link.excerpt }}</p>{% endif %}
+</div>{% endfor %}

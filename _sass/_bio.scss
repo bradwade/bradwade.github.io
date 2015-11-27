@@ -11,22 +11,21 @@
   border: $image-border;
   float: left;
   margin-right: 25px;
+  margin-bottom: 10px;
 }
 
 .bio__links {
   float: left;
   ul {
-    -webkit-columns: 100px 2;
-    -moz-columns: 100px 2;
-    columns: 100px 2;
-    -webkit-column-gap: 125px;
-    -moz-column-gap: 125px;
-    column-gap: 125px;
-    li a {
-      color: $text-color;
-      border: 0px;
-      &:hover {
-        color: $link-color;
+    li {
+        float: left;
+        width: 50%;
+        a {
+        color: $text-color;
+        border: 0px;
+        &:hover {
+          color: $link-color;
+        }
       }
     }
   }

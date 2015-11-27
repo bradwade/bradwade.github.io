@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /
-title: "Brad Wade"
+title: "About Brad Wade"
 image:
   feature: 210And2more-wide.jpg
   credit: Joshua Brandenburg

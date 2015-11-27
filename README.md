@@ -1,13 +1,11 @@
 # Brad Wade's personal portfolio blog site
 
 ## TO DO
-- spacing of bio at end of posts.
+
 
 ## To write
-- clean up posts
-- get dates for portfolio site
 - old sass camp slides
-
+- social media links in the right in footer
 
 ## Done
 - bio links list -- make an include. use fonticons
@@ -21,6 +19,15 @@
 - write longer bio
 - portfolio pic
 - portfolio blurb at top of page (with link to about?)
+- spacing of bio at end of posts.
+- Style breadcrumbs
+- Create category pages.
+- google analytics
+- clean up posts
+- get dates for portfolio site
+- indicate role on various projects
+- launch website button under description of portfolio
+- Update _config.yml pics:
 
 # Skinny Bones Jekyll Starter
 

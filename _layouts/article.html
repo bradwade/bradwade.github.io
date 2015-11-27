@@ -18,6 +18,7 @@ layout: default
 		</div>
 		<div class="inner-wrap">
 			<div id="content" class="page-content" itemprop="articleBody">
+        {{ page.date | date: "%B %d, %Y" }}
 				{{ content }}
 				<hr />
 				<footer class="page-footer">

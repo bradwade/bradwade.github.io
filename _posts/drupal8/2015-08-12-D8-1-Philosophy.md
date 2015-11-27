@@ -15,7 +15,7 @@ excerpt: Panels? Display Suite? Context? How can you manage layouts if your tool
 
 ## Lessons From the Road
 
-Back in 2014, I set out on an adventure with Memorial Sloan Kettering and multiple web and design agencies to begin building the first fully-operational, enterprise-level Drupal 8 website. We succesfully launched the site in May of 2015. I want to share some of the real-world lessons I learned over the past year, so that hopefully you can start adopting Drupal 8.
+{{ site.data.posts-d8-theming.lessons-excerpt }}
 
 {% include toc.html %}
 
@@ -25,7 +25,7 @@ Back in 2014, I set out on an adventure with Memorial Sloan Kettering and multip
 
 In Drupal 7 days, there was much debate on how to manage page and node layout. Which tools would you use? Panels? Display Suite? Context? Perhaps your tool of choice isn't ready for Drupal 8. (None of them were ready when I started.) It might seem daunting to move forward with out your normal set of tools. I'm hoping to cast a vision for how you can move forward. A possible way ahead.
 
-How can we manage various layouts for different pages? Bare-metal Drupal.
+How can we manage various layouts for different pages? The answer: Bare-metal Drupal.
 
 ## Embrace core
 
@@ -35,7 +35,7 @@ Here's how we took advantage of it.
 
 In general, we tried to define as much content as nodes as possible. This made things easier on ourselves by keeping keeping the site more consistent.
 
-The page's particular content (such as the blog's article and pictures) was handled at the node template level. Page templates handled the outer level layout (such as main menus, sidebars, and footers). There were multiple types of node and page layouts. It is possible to handle switching between them based on node type, a node field, or any condition you can write in an if statement. (I'll show you how later in this series.) *Complimentary* content contained in blocks can be conditionally added to regions in each page template. Standard conditions [get list from Drupal] or even create custom conditions. It's bare-metal drupal and you can do a lot with it.
+The page's particular content (such as the blog's article and pictures) was handled at the node template level. Page templates handled the outer level layout (such as main menus, sidebars, and footers). There were multiple types of node and page layouts. It is possible to handle switching between them based on node type, a node field, or any condition you can write in an if statement. (I'll show you how later in this series.) *Complimentary* content contained in blocks can be conditionally added to regions in each page template. You can conditionally place blocks based on things such as path or node type. With some custom coding you can even create your own set of custom conditions that are available in the UI for all blocks just like the standard core conditions. It's bare-metal drupal and you can do a lot with it.
 
 One problem that is inherent with any nested template system, is the assumptions that get made about which data and content should be made available to which template. When looking at designs it is one of the big questions that Drupal front-end developers/theme layer specialists need to answer: Which elements of this design need to be defined in the node and which in the page. Drupal's initial assumptions are that the node templates get node data, page templates don't. We can place blocks inside regions in page templates, but not inside node template. So how do we handle a sidebar that should have a global menu (page level block), as well as the bio of the author of the node (node level field)? (Panels everywhere was one approach to solve this issue.) I'm not offering one magic bullet solution for Drupal 8 core, but throughout this series I will surface ways of making node data available to the page, showing how to place blocks in nodes, how to get node fields to display in a block, and similar solutions that you may have to employ in the edge-use cases when you have to paint outside of the lines.
 

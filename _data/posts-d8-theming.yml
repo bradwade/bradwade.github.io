@@ -1,0 +1,108 @@
+# Data for Drupal 8 Theming Blog posts
+lessons-excerpt: Back in 2014, I set out on an adventure with Memorial Sloan Kettering and multiple web and design agencies to begin building the first fully-operational, enterprise-level Drupal 8 website. We succesfully launched the site in May of 2015. I want to share some of the real-world lessons I learned over the past year, so that hopefully you can start adopting Drupal 8.
+finder:
+  assetlist:
+    title: Example assets folder
+    filelist:
+    - name: assets
+      tier: 1
+      class: fa fa-folder
+    - name: css
+      tier: 2
+      class: fa fa-folder
+    - name: js
+      tier: 2
+      class: fa fa-folder
+    - name: images
+      tier: 2
+      class: fa fa-folder
+    - name: fonts
+      tier: 2
+      class: fa fa-folder
+  basiclist:
+    title: Basic Drupal 8 Theme Folder Structure
+    filelist:
+    - name: configuration
+      tier: 1
+      class: fa fa-folder
+    - name: install
+      tier: 2
+      class: fa fa-folder
+    - name: MYTHEME.settings.yml
+      tier: 3
+      class: fa fa-file-text-o
+    - name: templates
+      tier: 1
+      class: fa fa-folder
+    - name: favicon.ico
+      tier: 1
+      class: fa fa-file-image-o
+    - name: MYTHEME.info.yml
+      tier: 1
+      class: fa fa-file-code-o
+    - name: MYTHEME.libraries.yml
+      tier: 1
+      class: fa fa-file-code-o
+    - name: MYTHEME.theme
+      tier: 1
+      class: fa fa-file-code-o
+    - name: screenshot.png
+      tier: 1
+      class: fa fa-file-image-o
+  biglist:
+    title: Example Drupal 8 Theme Folder Structure
+    filelist:
+    - name: configuration
+      tier: 1
+      class: fa fa-folder
+    - name: install
+      tier: 2
+      class: fa fa-folder
+    - name: MYTHEME.settings.yml
+      tier: 3
+      class: fa fa-file-text-o
+    - name: css
+      tier: 1
+      class: fa fa-folder
+    - name: MYTHEME.css
+      tier: 2
+      class: fa fa-file-code-o
+    - name: js
+      tier: 1
+      class: fa fa-folder
+    - name: MYTHEME.js
+      tier: 2
+      class: fa fa-file-code-o
+    - name: sass
+      tier: 1
+      class: fa fa-folder
+    - name: MYTHEME.scss
+      tier: 2
+      class: fa fa-file-code-o
+    - name: templates
+      tier: 1
+      class: fa fa-folder
+    - name: config.rb
+      tier: 1
+      class: fa fa-file-code-o
+    - name: favicon.ico
+      tier: 1
+      class: fa fa-file-image-o
+    - name: Gemfile
+      tier: 1
+      class: fa fa-file-code-o
+    - name: Gemfile.lock
+      tier: 1
+      class: fa fa-file-code-o
+    - name: MYTHEME.info.yml
+      tier: 1
+      class: fa fa-file-code-o
+    - name: MYTHEME.libraries.yml
+      tier: 1
+      class: fa fa-file-code-o
+    - name: MYTHEME.theme
+      tier: 1
+      class: fa fa-file-code-o
+    - name: screenshot.png
+      tier: 1
+      class: fa fa-file-image-o
