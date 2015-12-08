@@ -51,6 +51,8 @@ stylesheets-remove:
   - normalize.css
 {% endhighlight %}
 
+While valid for now, I would consider this deprecated as plans are to remove this in the future.
+
 ## Other uses for modifying core libraries
 
 Although it may not be necessary in this use case, knowing how to access and modify/remove aspects of all of Drupal libraries at the theme layer is a powerful technique. Examine $libraries variable inside of hook_library_info_alter() to see all the possible modifications you can make.

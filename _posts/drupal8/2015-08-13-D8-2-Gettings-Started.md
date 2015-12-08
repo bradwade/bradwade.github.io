@@ -76,12 +76,12 @@ libraries:
   - mskcc/mytheme.globalstyles
   - mskcc/mytheme.globalscripts
 regions:
-  header: Header
+  header: 'Header'
   utility_nav: 'Utility Nav'
   subheader: 'Subheader'
   breadcrumb: 'Breadcrumb'
   content_top: 'Content Top'
-  content: Content
+  content: 'Content'
   content_bottom: 'Content Bottom'
   content_related: 'Related Content'
   sidebar_first: 'Sidebar first'
@@ -91,7 +91,7 @@ regions:
   footer_whatsnew: 'Footer Whats New'
   footer_siteinfo: 'Footer Site Info'
   off_canvas: 'Off Canvas'
-  debug_messages: Debug Messages
+  debug_messages: 'Debug Messages'
 
 stylesheets-override:
   - css/system.theme.css
