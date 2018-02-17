@@ -15,7 +15,7 @@ I am a front-end web developer, drupal specialist, and musician living in New Yo
 
 I've been building websites since 1998 for non-profit, startup, higher-education, government, music entertainment, television, publishing, retail, and health care clients. I've freelanced, ran my own business, worked at small start-ups, a Drupal shop, a digital agency, and for large international corporations.
 
-Currently, I'm the technical lead for a team at Memorial Sloan Kettering Cancer Center.
+Currently, I'm the web development architect for a team at Memorial Sloan Kettering Cancer Center.
 
 This website is about my tech related adventures. Information about my music will be available in a forthcoming separate website.
   </div>
