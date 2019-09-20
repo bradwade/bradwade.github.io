@@ -4,7 +4,7 @@
     <h4 class="portfolio-item__title">{{ link.title }}</h4>
 		{% if link.subtitle %}<div class="portfolio-item__subtitle">{{ link.subtitle }}</div>{% endif %}
 		{% if link.date %}<div class="portfolio-item__date">{{ link.date }}</div>{% endif %}
-    {% if link.url %}<a href="{{ site.url }}{{ link.url }}" class="portfolio-item__link">Launch Site <i class="fa fa-external-link"></i>
+    {% if link.url %}<a href="{{ link.url }}" class="portfolio-item__link">Launch Site <i class="fa fa-external-link"></i>
 </a>{% endif %}
   </div>
   {% if link.excerpt %}<p class="portfolio-item__excerpt">{{ link.excerpt }}</p>{% endif %}

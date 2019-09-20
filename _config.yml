@@ -2,7 +2,7 @@
 
 title: Brad Wade
 subtitle: front end developer | drupal specialist | musician
-description: The home for Brad Wade's web development work, portfolio, notes, documentation, and experiments.
+description: The home for Brad Wade's web development work, portfolio, and experiments.
 # 120x120 px default image used for Twitter summary card
 logo: bradwade-square-120.jpg
 # 400x250 px default teaser image used in image archive grid
@@ -31,7 +31,7 @@ owner:
   google:
     ad-client:
     ad-slot:
-  bio: Brad Wade is a front-end web developer, Drupal specialist, and musician living in New York City.
+  bio: Brad Wade is a technical lead, front-end web developer, Drupal specialist, and musician living in Portland, Oregon.
   avatar: bradwade-bio-photo.jpg # 160x160 px image for author byline
   disqus-shortname: project47
 
